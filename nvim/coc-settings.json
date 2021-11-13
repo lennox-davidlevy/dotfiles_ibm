@@ -1,0 +1,37 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "graphql",
+    "python",
+    "html",
+    "css",
+    "scss",
+    "dockerfile",
+    "vim",
+    "yaml"
+  ],
+  "yaml.schemas": {
+    "kubernetes": "/*.yaml"
+  },
+  "codeLens.enable": false,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "coc.preferences.formatOnType": false,
+  "coc.source.around.firstMatch": false,
+  "coc.source.file.ignoreHidden": false,
+  "diagnostic.format": "%message [%source]",
+  "diagnostic.virtualText": true,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.separateRelatedInformationAsDiagnostics": true,
+  "prettier.singleQuote": true,
+  "signature.target": "echo",
+  "suggest.timeout": 5000,
+  "suggest.asciiCharactersOnly": true,
+  "emmet.includeLanguages": { "vue-html": "html", "jsx": "javascript-react" },
+  "javascript.suggestionActions.enabled": false
+}
